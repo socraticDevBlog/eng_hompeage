@@ -40,7 +40,7 @@ class Main extends React.Component {
             </span>
           </a>
           <p>
-            Loving thick and complex books, from an early age I had discovered the joys of abstract thinking.
+            Loving thick and complex books from an early age, I had discovered the joys of abstract thinking.
             I've developped a taste to formal logic, philosophy of science and analytical philosophy being an undergrad student at Laval University.
             Coming from Arts and Humanities background, I've dedicated more efforts into logic and science to polish the rational side of my mind.
           </p>
