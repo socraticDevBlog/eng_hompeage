@@ -2,7 +2,6 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import philosophie from '../images/philosophy.jpg'
 import scrum from '../images/scrum.gif'
-import blogue from '../images/blogue.jpg'
 
 class Main extends React.Component {
   render() {
@@ -86,9 +85,10 @@ class Main extends React.Component {
             a restful web service.
           </p>
           <p>
-            I'm currently working as a consultant for a large governmental agency. I'm part of a team that takes care of several systems used throughout the agency.
-            I like to think this role enables me to improve my leadership qualities as well as my technical chops. 
-            Solving problems and developing new features using an array of technologies : web apps, web apis, sql scripting, batch processes, etc.
+            I'm currently working as a consultant for a large governmental agency. 
+            I'm part of a team that takes care of several systems used throughout the agency for business purposes.
+            I like to think this role enables me to shine a light onto my leadership qualities as well as my technical skills. 
+            Solving problems and developing new features using an array of technologies : web apps, web services, sql scripting, batch processes, etc.
           </p>
           {close}
         </article>
