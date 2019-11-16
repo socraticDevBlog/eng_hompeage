@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import philosophie from '../images/philosophy.jpg'
+import scrum from '../images/scrum.gif'
+import blogue from '../images/blogue.jpg'
 
 class Main extends React.Component {
   render() {
@@ -28,29 +28,30 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major">Philosophy</h2>
+
+          <a
+            href="https://archipel.uqam.ca/5229/"
+            alt="url pointing to my master thesis"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span className="image main">
+              <img src={philosophie} alt="screenshot of my master's thesis in french" />
+            </span>
+          </a>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Loving thick and complex books, from an early age I had discovered the joys of abstract thinking.
+            I've developped a taste to formal logic, philosophy of science and analytical philosophy being an undergrad student at Laval University.
+            Coming from Arts and Humanities background, I've dedicated more efforts into logic and science to polish the rational side of my mind.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Aiming at becoming a Philosophy teacher, I went into grad school in Montreal. I've completed a thesis about the concept of sophism thru the lense dialectics, linguistics and pragmatics.
+            I have been a teacher for a short while and chose to pivot into technology.
+          </p>
+          <p>
+            Since then philosophy had become a hobby to me. Between being an exercise of abstract thinking and an art of living.
+            I've rediscovered the fundamentals : Plato and the philosophers of the Antiquity.
           </p>
           {close}
         </article>
@@ -62,109 +63,33 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
-          {close}
-        </article>
+          <h2 className="major">Career</h2>
 
-        <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          <a
+            href="https://www.linkedin.com/in/boninmaxime/?locale=en_US"
+            alt="url toward my LinkedIn profile"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span className="image main">
+              <img src={scrum} alt="drawing of a stand-up meeting" />
+            </span>
+          </a>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+           After a short stint as a teacher, I've taken the challenge of a professional retraining.
+           I wanted to be part of this technological revolution of the 21st century. Putting my critical thinking skills to work and developping concrete projects.
+           Becoming a software developer !
           </p>
-          {close}
-        </article>
-
-        <article
-          id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
+          <p>
+            Out of college, I've worked with the R & D department of a small software company.
+            First maintaining their medical office solution. Then dedicating all my time developping a mobile app and
+            a restful web service.
+          </p>
+          <p>
+            I'm currently working as a consultant for a large governmental agency. I'm part of a team that takes care of several systems used throughout the agency.
+            I like to think this role enables me to improve my leadership qualities as well as my technical chops. 
+            Solving problems and developing new features using an array of technologies : web apps, web apis, sql scripting, batch processes, etc.
+          </p>
           {close}
         </article>
       </div>
