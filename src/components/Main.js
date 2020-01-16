@@ -45,11 +45,11 @@ class Main extends React.Component {
           </a>
           <p>
             Loving thick and complex books from an early age, I had discovered
-            the joys of abstract thinking. I've developped a taste to formal
-            logic, philosophy of science and analytical philosophy being an
-            undergrad student at Laval University. Coming from Arts and
-            Humanities background, I've dedicated more efforts into logic and
-            science to polish the rational side of my mind.
+            the joys of abstract thinking. At university, I've developped a
+            taste to formal logic, philosophy of science and analytical
+            philosophy. Coming from Arts and Humanities background, I've
+            dedicated extra care to master logic, critical thinking and
+            philosophy of sciences.
           </p>
           <p>
             Aiming at becoming a Philosophy teacher, I went into grad school in
@@ -93,19 +93,10 @@ class Main extends React.Component {
             developer !
           </p>
           <p>
-            Out of college, I've worked with the R & D department of a small
-            software company. First maintaining their medical office solution.
-            Then dedicating all my time developping a mobile app and a restful
-            web service.
-          </p>
-          <p>
-            I'm currently working as a consultant for a large governmental
-            agency. I'm part of a team that takes care of several systems used
-            throughout the agency for business purposes. I like to think this
-            role enables me to shine a light onto my leadership qualities as
-            well as my technical skills. Solving problems and developing new
-            features using an array of technologies : web apps, web services,
-            sql scripting, batch processes, etc.
+            I'm currently working as a developer in the Microsoft's ecosystem.
+            I'm training to become a Big Data developer in the Hadoop ecosystem.
+            Whenever I have free time, I love coding in Python, JavaScript and
+            Scheme. And learning about software architecture.
           </p>
           {close}
         </article>
