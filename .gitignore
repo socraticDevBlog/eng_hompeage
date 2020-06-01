@@ -1,3 +1,6 @@
+# dev dependencies
+.vscode
+
 # Project dependencies
 .cache
 node_modules
