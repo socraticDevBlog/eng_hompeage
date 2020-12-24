@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "maxime-bonin-dev-personal-homepage",
+  "description": "Maxime Bonin's homepage",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Hunter Chang's theme and Maxime Bonin for content",
   "dependencies": {
     "gatsby": "^2.15.28",
     "gatsby-plugin-manifest": "^2.2.20",
@@ -29,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/socraticDevBlog/eng_hompeage"
   }
 }
