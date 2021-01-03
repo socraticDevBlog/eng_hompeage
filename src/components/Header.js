@@ -1,18 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Header = props => (
+const Header = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
       <span className="icon fas fa-terminal"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1></h1>
-        <p>
+        <h1 className="main-title">
           Homepage to this Maxime Bonin who is a software and fullstack web
           developer
-        </p>
+        </h1>
       </div>
     </div>
     <nav>
