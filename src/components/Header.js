@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Header = (props) => (
+const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
       <span className="icon fas fa-terminal"></span>
@@ -44,6 +44,16 @@ const Header = (props) => (
             }}
           >
             Blog
+          </a>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle('contact')
+            }}
+          >
+            Contact me
           </a>
         </li>
       </ul>

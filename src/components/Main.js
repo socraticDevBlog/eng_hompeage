@@ -146,6 +146,63 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+        <article
+          id="contact"
+          className={`${this.props.article === 'contact' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 class="major">Contact</h2>
+          <p>come say 'hello'</p>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://twitter.com/SocraticDevBlog"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Twitter"
+                class="icon brands fa-twitter"
+              >
+                <span class="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/boninmaxime/"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="LinkedIn"
+                class="icon brands fa-linkedin"
+              >
+                <span class="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/socraticdevblog"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="GitHub"
+                class="icon brands fa-github"
+              >
+                <span class="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://gitlab.com/socraticdev"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="GitLab"
+                class="icon brands fa-gitlab"
+              >
+                <span class="label">GitLab</span>
+              </a>
+            </li>
+          </ul>
+          {close}
+        </article>
       </div>
     )
   }
