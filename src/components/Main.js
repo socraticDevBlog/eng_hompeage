@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import philosophie from '../images/philosophy.jpg'
-import scrum from '../images/scrum.gif'
+import talk from '../images/talk.jpg'
 import blog from '../images/blog.jpg'
 
 class Main extends React.Component {
@@ -53,7 +53,8 @@ class Main extends React.Component {
           </p>
           <p>
             Aiming at becoming a Philosophy teacher, I went into grad school in
-            Montreal. I've completed a thesis about the concept of sophism thru
+            Montreal. My thesis was about the concept of fallacy. Explaining how
+            we can better understand fallacies (and sound argumentation) thru
             the lense dialectics, linguistics and pragmatics. I have been a
             teacher for a short while and chose to pivot into technology.
           </p>
@@ -82,7 +83,7 @@ class Main extends React.Component {
             target="_blank"
           >
             <span className="image main">
-              <img src={scrum} alt="drawing of a stand-up meeting" />
+              <img src={talk} alt="picture of me giving a talk" />
             </span>
           </a>
           <p>
@@ -93,10 +94,14 @@ class Main extends React.Component {
             developer !
           </p>
           <p>
-            I'm currently working as a developer in the Microsoft's ecosystem.
-            I'm training to become a Big Data developer in the Hadoop ecosystem.
-            Whenever I have free time, I love coding in Python, JavaScript and
-            Scheme. And learning about software architecture.
+            I'm currently a working developer in the Microsoft's ecosystem. I
+            also contribute to small and mid-size open-source project as a
+            tech-lead or occasional contributor (mainly in python and
+            JavaScript).
+          </p>
+          <p>
+            Solving problems, empowering teamates, and adding value are keys to
+            success!
           </p>
           {close}
         </article>
