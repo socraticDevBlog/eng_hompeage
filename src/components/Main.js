@@ -149,45 +149,6 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="dailybuild"
-          className={`${this.props.article === 'dailybuild' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">#dailybuild</h2>
-          <h3>a online international community</h3>
-          <a
-            href="https://dailybuild.org"
-            alt="url pointing to dailybuild's website"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span className="image main">
-              <img src={dailybuild} alt="screenshot of a blog post blurb" />
-            </span>
-          </a>
-          <p>
-            #dailybuild is a subset of daily programmer orbiting around this IRC chat channel on <a href="https://www.rizon.net/" target="_blank">Rizon network</a>. Scattered around the world from Turkey to the American Pacific coast, we enjoy meeting at irregular hours to discuss everything about tech, especially linux ... and the frequent banter.
-          </p>
-          <p>
-            I act as the founder and benevolent webmaster. My main goal is to encourage members to dare build stuff and be a positive force in the tech world.
-          </p>
-          <p>
-            <a
-              href="https://dailybuild.org"
-              alt="url to dailybuild online community"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              https://dailybuild.org
-            </a>
-          </p>
-          {close}
-        </article>
-
-
-        <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
